@@ -2,7 +2,7 @@
 
 This application takes user inputs from the command-line to generate an HTML document that will display a 'team-profile'. 
 
-![Team Profile Example](/assets/teamprofileexample.png)
+![Team Profile Example](/Assets/teamprofileexample.png)
 
 ## Installation and Usage
 
@@ -10,25 +10,25 @@ This application requires Node.js and the inquirer dependency to function. To do
 
 This application is not deployed live on Github pages, to use this program you can fork this repository to a Github account of your choosing and run it locally on your machine. The 'fork' button is located near the top-right of this repository. 
 
-![Fork Button](/assets/forkbutton.png)
+![Fork Button](/Assets/forkbutton.png)
 
 Before you can use this program you must have the 'inquirer' dependency set up in this repository. To do this, simply run the command 'npm i inquirer' in the terminal at the root of this directory. 
 
-![Inquirer Installation Command](/assets/inquirerinstall.png)
+![Inquirer Installation Command](/Assets/inquirerinstall.png)
 
 After the inquirer dependency is installed into this directory, the main program can be invoked with the command 'node app.js' (or 'node app') in the command line. 
 
-![Command to invoke program](/assets/programinvoke.png)
+![Command to invoke program](/Assets/programinvoke.png)
 
 After the program is invoked, the user is prompted through the command line asking for team member information.
 
-![Command-line Questions](/assets/commandlinequestions.gif)
+![Command-line Questions](/Assets/commandlinequestions.gif)
 
 When the user selects 'no' to adding another team member, the application will take the data from user command-line inputs to create an HTML page containing all of the team member information filled out in the prompt. 
 
 The final html is titled 'final.html' and will appear in the generatedHTML folder of this directory. 
 
-![final.html Location](/assets/htmlfinallocation.png)
+![final.html Location](/Assets/htmlfinallocation.png)
 
 ## Development Testing
 
@@ -36,11 +36,11 @@ This project was developed using Jest testing. Tests for each 'Employee' class a
 
 If you would like to run the tests for this program yourself, install the 'Jest' dependency with the command 'npm i jest' 
 
-![Command to install Jest](/assets/jestinstallcommand.png)
+![Command to install Jest](/Assets/jestinstallcommand.png)
 
 With the Jest dependency installed, all tests in the /test folder can be run using the command 'npm test'
 
-![npm test Demo](/assets/npmtestdemo.gif)
+![npm test Demo](/Assets/npmtestdemo.gif)
 
 ## Technologies Used for this Project
 
@@ -50,6 +50,6 @@ With the Jest dependency installed, all tests in the /test folder can be run usi
 ## Full GIF Demo
  
 
-![GIF demo of program](/assets/programdemogif.gif)
+![GIF demo of program](/Assets/programdemogif.gif)
 
 ### Note: a sample HTML file using this program is included inside the /generatedHTML folder of this repository. 
